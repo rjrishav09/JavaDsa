@@ -10,7 +10,7 @@ public class string_array {
             data[i] =scan.nextLine();
         }
         for(int i=0; i<=data.length;i++){
-            System.out.println(i+1 + " : " + data[i]);
+            System.out.println(i+1 + " = " + data[i]);
         }
     
 
