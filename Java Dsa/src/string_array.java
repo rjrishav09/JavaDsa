@@ -10,12 +10,7 @@ public class string_array {
             data[i] =scan.nextLine();
         }
         for(int i=0; i<=data.length;i++){
-            if(i== 2 || i==4){
-                System.out.println(i+1 + " : " + data[i]);
-            }
-            else{
-                System.out.println("Try again");
-            }
+            System.out.println(i+1 + " : " + data[i]);
         }
     
 
