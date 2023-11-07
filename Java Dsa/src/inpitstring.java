@@ -11,7 +11,7 @@ public class inpitstring {
         }
         for(int i=0;i<name.length;i++){
 
-            System.out.println("Your name is: " + name[i]);
+            System.out.println("Your name is:  " + name[i] + ";");
         }
     }
     
