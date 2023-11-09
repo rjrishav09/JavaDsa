@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Display {
     public static void display() {
-        System.out.println("Welcome");
+        System.out.println("Thanks for Your Answers!");
     }
 }
 
