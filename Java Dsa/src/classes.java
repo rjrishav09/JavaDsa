@@ -21,7 +21,7 @@ class Table{
         System.out.println("Enter YOur number");
         int t = scan.nextInt();
         for(int i =1;i<11;++i){
-            System.out.println(t + " * " + i + " = " + i*t);
+            System.out.println("\n"+t + " * " + i + " = " + i*t);
         }
 
     }
