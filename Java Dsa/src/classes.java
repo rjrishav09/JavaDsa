@@ -57,10 +57,14 @@ public class classes {
         Inputs k = new Inputs();
         Table p = new Table();
         Array o = new Array();
+        Keshav kk = new Keshav();
         k.inputs();
         d.display(); 
         p.table();
         o.array();
+        kk.keshav();
+
+
     }
 }
 
