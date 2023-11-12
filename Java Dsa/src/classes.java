@@ -42,20 +42,26 @@ class Array{
     }
 }
 
-public class classes {
-    public static void main(String[] args) {{
-        String entery[] = new String[10];
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your name");
-        for(int i =0;i<entery.length;i++){
-            entery[i] = sc.nextLine();
-        }
-        System.out.println("Your enter name is:");
-        for(int i =0;i<entery.length;i++){
-            System.out.println(i+1 + entery[i]);
-        }
+class Keshav{
+    public static void keshav(){
+        Scanner ke = new Scanner(System.in);
+        System.out.println("Enter your rank: ");
+        int kes = ke.nextInt();
+        System.out.println(kes);
     }
 }
+
+public class classes {
+    public static void main(String[] args) {
+        Display d = new Display();
+        Inputs k = new Inputs();
+        Table p = new Table();
+        Array o = new Array();
+        k.inputs();
+        d.display(); 
+        p.table();
+        o.array();
+    }
 }
 
 
