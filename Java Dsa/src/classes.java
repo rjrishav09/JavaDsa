@@ -31,7 +31,7 @@ class Array{
     public static void array(){
         String entery[] = new String[10];
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your name: _");
+        System.out.println("Enter your name: ");
         for(int i =0;i<entery.length;i++){
             entery[i] = sc.nextLine();
         }
