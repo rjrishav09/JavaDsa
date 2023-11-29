@@ -35,7 +35,7 @@ class Array{
         for(int i =0;i<entery.length;i++){
             entery[i] = sc.nextLine();
         }
-        System.out.println("Your enter name is: ");
+        System.out.println("Your enter name is_: ");
         for(int i =0;i<entery.length;i++){
             System.out.println(i+1 + entery[i]);
         }
@@ -44,6 +44,7 @@ class Array{
 
 class Keshav{
     public static void keshav(){
+        
         Scanner ke = new Scanner(System.in);
         System.out.println("Enter your rank:  ");
         int kes = ke.nextInt();
