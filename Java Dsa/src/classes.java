@@ -35,7 +35,7 @@ class Array{
         for(int i =0;i<entery.length;i++){
             entery[i] = sc.nextLine();
         }
-        System.out.println("Your enter name is: ");
+        System.out.println("Your enter name is:_ ");
         for(int i =0;i<entery.length;i++){
             System.out.println(i+1 + entery[i]);
         }
