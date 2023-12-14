@@ -46,7 +46,7 @@ class Keshav{
     public static void keshav(){
         
         Scanner ke = new Scanner(System.in);
-        System.out.println("Enter your rank:_ ");
+        System.out.println("Enter your rank: ");
         int kes = ke.nextInt();
         System.out.println(kes);
     }
